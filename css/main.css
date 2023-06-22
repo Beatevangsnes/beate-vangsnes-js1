@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #7d8e95;
+  font-family: poppins;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(/CSS/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "poppinsbold";
+  src: url(/CSS/fonts/Poppins-Bold.ttf);
+}
+
+
+b {
+  font-family: poppinsbold;
+}
+
+main {
+  padding: 2%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffbb98;
+  letter-spacing: 2px;
+  font-family: poppinsbold;
+}
+
+#jokes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.joke {
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.joke p {
+  margin: 0;
+}
+
+
+#filter-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.filter-button {
+  margin-right: 10px;
+  background-color: #344648;
+  color: #FBE0C3;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter-button.active {
+  background-color: #FBE0C3;
+  color: #344648;
+}
+
+.joke-button {
+  margin-top: 20px;
+  background-color: #344648;
+  color: #FBE0C3;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block; 
+}
+
+.joke-button a {
+  color: #FBE0C3;
+  text-decoration: none; 
+  font-size: 16px;
+}

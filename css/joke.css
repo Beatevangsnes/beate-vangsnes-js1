@@ -1,0 +1,67 @@
+body {
+  font-family: poppins;
+  margin: 0;
+  padding: 20px;
+  background-color: #7d8e95;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(/CSS/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "poppinsbold";
+  src: url(/CSS/fonts/Poppins-Bold.ttf);
+}
+
+b {
+  font-family: poppinsbold;
+}
+
+main {
+  padding: 2%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffbb98;
+  font-family: poppinsbold;
+  letter-spacing: 2px;
+}
+
+#joke-container {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 40px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: poppins;
+}
+
+#joke-punchline {
+  display: none;
+  margin-top: 20px;
+  font-family: poppinsbold;
+}
+
+#reveal-button {
+  background-color: #344648;
+  color: #FBE0C3;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back i {
+  font-size: 30px;
+  margin-left: 15px;
+  color: #ffbb98;
+
+}
